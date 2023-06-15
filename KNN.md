@@ -6,9 +6,9 @@ One popular method used for prediction tasks is the K-Nearest Neighbors (KNN) al
   <img width="460" height="300" src="https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-981-15-9938-5_35/MediaObjects/488434_1_En_35_Fig1_HTML.png">
 </p>
 
-### 1.1 KNN from scretch simple implementation :
+### 1.1 KNN from scretch simple implementation : ( credits : @neuralNine)
 
-In this implementation, we will set ***K=3*** and for the distance we will use ***the euclidean formula*** thought in school. 
+In this implementation, we will set ***K=3*** ,and for the distance we will use ***the euclidean formula*** thought in school. 
 
 ![image](https://github.com/IslemBouzidi/DataScience/assets/87117961/56870f5a-7946-45b1-8b82-d4d2ef3fd9ad)
 
@@ -81,3 +81,7 @@ print("Predicted label: blue" if predicted_label == 1 else "Predicted label: red
 new_point = np.array([2, 2])
 ```
 ![image](https://github.com/IslemBouzidi/DataScience/assets/87117961/fbfb0c75-3dad-40ef-a56c-95d9303b95ad)
+
+
+### 1.2 hands on a real life project: 
+
