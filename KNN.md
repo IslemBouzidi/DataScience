@@ -85,3 +85,6 @@ new_point = np.array([2, 2])
 
 ### 1.2 hands on a real life project: 
 
+[The NoteBook :SeabornVisualisationProject & KNN Classification](https://github.com/IslemBouzidi/DataScience/blob/main/Seaborn%20Visualization%20%26%20KNN%20classification.ipynb)
+
+
