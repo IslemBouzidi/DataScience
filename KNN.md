@@ -98,6 +98,6 @@ A more complicated problem with Knn classification implementation.
 
 [Seaborn Visualisation & knn Classification (Star Data)](https://github.com/IslemBouzidi/DataScience/blob/main/Seaborn%20Visualization%20%26%20knn%20Classification%20(Star%20Data).ipynb)
 
-The notebook contains some french waiting to be translated (Soon)
+The notebook contains some french waiting to be translated, plus working on visualization more (Soon)
 
 
