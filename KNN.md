@@ -83,8 +83,14 @@ new_point = np.array([2, 2])
 ![image](https://github.com/IslemBouzidi/DataScience/assets/87117961/fbfb0c75-3dad-40ef-a56c-95d9303b95ad)
 
 
-### 1.2 hands on a real life project: 
+### 1.2 Hands on a Real Life Project: 
+1.2.1 Small Dataset : ***Classification of Iris Species***
+
+While the dataset was clean and small, the independence of its features posed a challenge in achieving accurate classification results. Nevertheless, I would like to showcase the K-Nearest Neighbors (KNN) code for your reference.
 
 [The NoteBook :SeabornVisualisationProject & KNN Classification](https://github.com/IslemBouzidi/DataScience/blob/main/Seaborn%20Visualization%20%26%20KNN%20classification.ipynb)
+
+1.2.2 BIG Data: ***Classification of (GALAXY, STAR QSO)***
+
 
 
