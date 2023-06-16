@@ -3,6 +3,6 @@ A repository for Data Science and related stuff. ( Under structure )
 
 ## Table of Contents
 
-1. [Classification](https://github.com/IslemBouzidi/DataScience/blob/main/Linear%20Regression.md)
+1. [Classification]([https://github.com/IslemBouzidi/DataScience/blob/main/Linear%20Regression.md](https://github.com/IslemBouzidi/DataScience/blob/main/Classification.md))
     - KNN
 
