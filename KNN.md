@@ -92,7 +92,12 @@ I would like to just showcase the K-Nearest Neighbors (KNN) code for your refere
 
 [The NoteBook :SeabornVisualisationProject & KNN Classification](https://github.com/IslemBouzidi/DataScience/blob/main/Seaborn%20Visualization%20%26%20KNN%20classification.ipynb)
 
-1.2.2 BIG Data: ***Classification of (GALAXY, STAR QSO)*** (soon)
+1.2.2 BIG Data: ***Classification of (GALAXY, STAR QSO)***
 
+A more complicated problem with Knn classification implementation.
+
+[Seaborn Visualisation & knn Classification (Star Data)](https://github.com/IslemBouzidi/DataScience/blob/main/Seaborn%20Visualization%20%26%20knn%20Classification%20(Star%20Data).ipynb)
+
+The notebook contains some french waiting to be translated (Soon)
 
 
