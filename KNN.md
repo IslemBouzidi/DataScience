@@ -86,7 +86,9 @@ new_point = np.array([2, 2])
 ### 1.2 Hands on a Real Life Project: 
 1.2.1 Small Dataset : ***Classification of Iris Species***
 
-While the dataset was clean and small, the independence of its features posed a challenge in achieving accurate classification results. Nevertheless, I would like to showcase the K-Nearest Neighbors (KNN) code for your reference.
+The dataset was clean and small.
+
+I would like to just showcase the K-Nearest Neighbors (KNN) code for your reference.
 
 [The NoteBook :SeabornVisualisationProject & KNN Classification](https://github.com/IslemBouzidi/DataScience/blob/main/Seaborn%20Visualization%20%26%20KNN%20classification.ipynb)
 
