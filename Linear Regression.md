@@ -53,7 +53,7 @@ class LinearRegression:
             # Predict the target variable
             y_pred = np.dot(X, self.weights) + self.bias
 
-            # Compute the gradients
+            # Compute the gradients or derivatives of the cost function:
             dw = (1/n_samples) * np.dot(X.T, (y_pred - y))
             db = (1/n_samples) * np.sum(y_pred - y)
 
@@ -67,6 +67,6 @@ class LinearRegression:
         return y_pred
    ```
    
-  - ### Hands on real data: 
+  - ### Hands on real data: (sooooon)
 
 
