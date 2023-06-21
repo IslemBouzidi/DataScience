@@ -27,6 +27,8 @@ $$w= w - αdw$$
 $$β= β - αdβ$$
 
 `α` is the learning rate which we can adjust according to the data that we're dealing with.
+![image](https://github.com/IslemBouzidi/DataScience/assets/87117961/6344a01d-4e58-425f-9af1-7fb52bac8bc2)
+
   - ### The code: 
 
 ``` python 
