@@ -68,7 +68,7 @@ class LinearRegression:
         y_pred = np.dot(X, self.weights) + self.bias
         return y_pred
    ```
-   
+   ### hypothesis testing 
   - ### Hands on real data: (sooooon)
 
 
