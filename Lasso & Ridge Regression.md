@@ -8,6 +8,7 @@ By now, many of you are likely familiar with the term "overfitting," which occur
 
 from: https://machine-learning.paperspace.com/wiki/overfitting-vs-underfitting
 
+### 2.The math:
 To address this issue, we have two powerful techniques: Lasso and Ridge Regression. Lasso, named after the L1 norm it employs, and Ridge Regression, named after the L2 norm it utilizes. These regularization methods help mitigate overfitting by imposing constraints on the model's coefficients, preventing them from becoming overly sensitive to the training data's idiosyncrasies.
 
 In Lasso Regression, the L1 norm penalty is applied, which can be represented as:
@@ -41,7 +42,7 @@ To obtain the best coefficients in Lasso or Ridge Regression, we aim to minimize
 
 credits: `Sreenath S`
 
-### 2. Code:
+### 3. Code:
 ``` python
 from sklearn.linear_model import Lasso
 from sklearn.linear_model import Ridge
