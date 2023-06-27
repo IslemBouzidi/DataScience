@@ -6,11 +6,12 @@ One popular method used for prediction tasks is the K-Nearest Neighbors (KNN) al
   <img width="460" height="300" src="https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-981-15-9938-5_35/MediaObjects/488434_1_En_35_Fig1_HTML.png">
 </p>
 
-### 1.1 KNN from scretch simple implementation : ( credits : @neuralNine)
+From: https://link.springer.com/chapter/10.1007/978-981-15-9938-5_35
+### 1.1 KNN from scretch simple implementation :
 
 In this implementation, we will set ***K=3*** ,and for the distance we will use ***the euclidean formula*** thought in school. 
+$$d(\mathbf {p,q})= \sqrt{\sum \limits_{i=1}^n (q_i-p_i)^2}$$
 
-![image](https://github.com/IslemBouzidi/DataScience/assets/87117961/56870f5a-7946-45b1-8b82-d4d2ef3fd9ad)
 
 ``` python
 
