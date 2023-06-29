@@ -21,18 +21,17 @@ These regularization terms encourage the model to find a balance between fitting
 
 In Lasso Regression, the L1 norm penalty is applied to the cost function, which can be represented as:
 
-```scss
-Cost(Lasso) = MSE + λ * ||w||₁
-```
+
+$$Cost(Lasso) = MSE + λ * ||w||₁$$
 where MSE (Mean Squared Error) measures the average squared difference between the predicted and actual values, and λ (lambda) is the regularization parameter that controls the strength of the regularization effect. The L1 norm penalty term, ||w||₁, encourages sparsity in the coefficient values. It shrinks some coefficients to zero, effectively selecting a subset of the most relevant features and eliminating less important ones.
 
 
 
 In Ridge Regression, the L2 norm penalty is applied to the cost function, which can be represented as:
 
-```scss
-Cost(Ridge) = MSE + λ * ||w||₂²
-```
+
+$$Cost(Ridge) = MSE + λ * ||w||₂²$$
+
 Where ||w||₂² represents the square of the L2 norm of the coefficient vector w. Similar to Lasso Regression, λ is the regularization parameter controlling the strength of regularization. The L2 norm penalty term, ||w||₂², encourages small and balanced coefficient values without forcing them to zero. It helps prevent extreme coefficient values and reduces the impact of less influential features.
 
 To obtain the best coefficients in Lasso or Ridge Regression, we aim to minimize the cost function by adjusting the coefficient values. This is typically done using optimization algorithms such as `gradient descent` (for Ridge, lasso usese  L1 which is not continuous, and hence not differentiable) or `closed-form solutions`(for ridge)
