@@ -46,6 +46,7 @@ predictions = classifier.predict(X_test)
 
 
 RESOURCES:
+
 100 pages of ML
 
 ML cheatchat from stanford 
