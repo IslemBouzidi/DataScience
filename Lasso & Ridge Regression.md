@@ -59,3 +59,6 @@ For Lasso Regression:
 lasso = Lasso(alpha=0.1)  # Adjust the alpha parameter for regularization strength
 ```
 Similar to Ridge Regression, you can adjust the value of `alpha` in Lasso Regression to control the strength of regularization. Higher values of `alpha` will increase the level of sparsity in the model by shrinking more coefficients towards zero. Test different values of `alpha` to find the optimal level of regularization for your dataset.
+
+### 4. Hand on Real Data:
+https://github.com/IslemBouzidi/kaggle/blob/main/kaggle%20competition/HousePricing.ipynb
