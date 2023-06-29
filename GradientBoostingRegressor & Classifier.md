@@ -43,7 +43,8 @@ classifier.fit(X_train, y_train)
 predictions = classifier.predict(X_test)
 
 ```
-
+#### Hands on Real Data:
+https://github.com/IslemBouzidi/kaggle/blob/main/kaggle%20competition/HousePricing.ipynb
 
 RESOURCES:
 
