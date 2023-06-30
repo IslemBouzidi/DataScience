@@ -90,3 +90,6 @@ y_pred = rf_classifier.predict(X_test)
 `random_state`: It is used to set a random seed for reproducibility. Providing a specific value ensures that the Random Forest algorithm produces the same results each time it is run. You can change this value to get different random splits of data during the training process.
 
 For refrence: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+
+### Hands on Real Data: 
+In this  notebook, you can find the implementation of randomforest classifier. [link](https://github.com/IslemBouzidi/DataScience/blob/main/Seaborn%20Visualization%20%26%20knn%20Classification%20(Star%20Data).ipynb)
