@@ -5,10 +5,11 @@ It assumes a linear relationship between the variables, meaning that the depende
   - ### Estimation : 
 
 $$Y = β₀ + β₁X₁$$
- It looks something like this.
+The goal of linear regression is to find the best-fitting line that approximates the relationship between the feature (X₁) and the target variable (Y). This line is positioned as close as possible to all the data points in our dataset, minimizing the distance between the predicted values and the actual data points. By determining the values of the coefficients (β₀ and β₁), we can establish the equation of this line and make predictions based on new input values.
+
+It looks something like this.
  
- We try to draw that line using the data we have in ordre to predict our target. 
-  ![image](https://github.com/IslemBouzidi/DataScience/assets/87117961/75e563a6-91f5-46bd-a9da-2926809e8207)
+   ![image](https://github.com/IslemBouzidi/DataScience/assets/87117961/75e563a6-91f5-46bd-a9da-2926809e8207)
 
   - ### Calculating the Error : 
 Mean sequared Error : 
