@@ -113,6 +113,33 @@ class KNN:
         most_common = Counter(k_nearest_labels).most_common()
         return most_common[0][0]
 ```
+
+### Sklearn:
+``` python
+import numpy as np
+from sklearn.neighbors import KNeighborsRegressor #KNeighborsClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error
+
+X_train_regression, X_test_regression, y_train_regression, y_test_regression = train_test_split(
+    X_regression, y_regression, test_size=0.2, random_state=42
+)
+
+# Initializing the kNN regression model
+k = 3  # Set the value of k (number of neighbors)
+knn_regression = KNeighborsRegressor(n_neighbors=k)# knn_classification = KNeighborsClassifier(n_neighbors=k)
+
+# Fitting the model to the training data
+knn_regression.fit(X_train_regression, y_train_regression)
+
+# Making predictions on the test data
+y_pred_regression = knn_regression.predict(X_test_regression)
+
+# Calculate the mean squared error to evaluate the model
+mse_regression = mean_squared_error(y_test_regression, y_pred_regression)
+print("Mean Squared Error:", mse_regression)
+
+```
 ### 1.2 Hands on a Real Life Project: 
 1.2.1 Small Dataset : ***Classification of Iris Species***
 
