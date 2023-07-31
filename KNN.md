@@ -83,7 +83,7 @@ new_point = np.array([2, 2])
 ```
 ![image](https://github.com/IslemBouzidi/DataScience/assets/87117961/fbfb0c75-3dad-40ef-a56c-95d9303b95ad)
 
-#### Let's put it in a class :
+### Let's put it in a class :
 
 ``` python
 import numpy as np
